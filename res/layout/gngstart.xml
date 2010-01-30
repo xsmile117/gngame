@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:background="@drawable/startbg" android:orientation="vertical">
+<ImageView android:id="@+id/halfbg" android:layout_width="wrap_content" android:src="@drawable/halfbg" android:layout_height="wrap_content" android:layout_marginBottom="20px"></ImageView>
+
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:gravity="center" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+<Button android:id="@+id/start" android:layout_height="wrap_content" android:text="@string/start" android:textSize="18px" android:layout_width="wrap_content" android:background="@drawable/start"></Button>
+
+
+<Button android:id="@+id/about" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/about" android:text="@string/about" android:textSize="18px"></Button>
+</LinearLayout>
+
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:gravity="bottom" android:layout_gravity="bottom|right" android:text="@string/power" android:textColor="@color/text_color" android:layout_marginRight="5px" android:layout_height="145px"></TextView>
+</LinearLayout>
