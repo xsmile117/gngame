@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="power">Powered by xsmile</string>
+    <string name="app_name">猜数字</string>
+    <string name="start">玩一玩吧</string>
+    <string name="help">说    明</string>
+    <string name="about">关    于</string>
+    <string name="tstring_left">还有</string>
+    <string name="tstring_right">次机会</string>
+    <string name="rstring">猜测结果</string>
+    <string name="success_bar">猜对啦</string>
+    <string name="success">恭喜恭喜~我对阁下敬佩之情犹如滔滔江水连绵不决，又如黄河泛滥一发不可收拾</string>    
+    <string name="fail_bar">猜错了</string>
+    <string name="fail">怎么说呢~如果上天再给你一次机会，你一定会知道这个数字其实是</string>
+    <string name="help_content">从0-9中任意拖动4个数字放入橙色方框中，绿色提示框中将显示结果，其形式为?A?B;其中A表示数字与位置都猜对，而B则表示数字猜对，但位置不对。\n譬如"1A2B"表示你猜对3个数字，其中1个数字位置皆正确，2个数字正确但位置不对。\n你一共只有7次机会哦！</string>
+    <string name="about_content">本软件为个人原创软件，旨作学习娱乐之用，任何个人或团体不得转做商业用途。\n软件开放源代码，所有素材原型皆取自互联网。\n作者:xsmile\nBlog:http://www.xsmile.net\n邮箱:xsmile117@gmail.com</string>    
+    <string name="info_content">游戏原型为\"文曲星\"猜数字游戏，此为个人开发Android触摸屏版（G3），纯属娱乐！</string>        
+</resources>

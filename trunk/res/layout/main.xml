@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.xsmile.game.GuessView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gng"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/startbg">
+    
+ <net.xsmile.game.GuessFunView android:id="@+id/gngfun" 
+android:background="@drawable/result" 
+android:layout_width="fill_parent" 
+android:orientation="vertical" 
+android:layout_height="wrap_content">
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="right">
+<TextView android:id="@+id/TVTime" 
+android:layout_height="wrap_content" 
+android:layout_gravity="right" 
+android:layout_width="wrap_content" 
+android:textSize="24px" android:text="7" 
+android:paddingTop="2px" 
+android:textColor="#ffffff" 
+android:paddingRight="5px"></TextView>
+<TextView android:id="@+id/TVBar" 
+android:layout_gravity="right" 
+android:layout_height="wrap_content" 
+android:layout_width="wrap_content" 
+android:textSize="18px" 
+android:layout_marginRight="5px"
+android:layout_marginBottom="5px" 
+android:paddingTop="8px" 
+android:textColor="#5eb9e3" 
+android:text="@string/tstring_right"></TextView>
+</LinearLayout>
+<TextView android:id="@+id/TVResult"
+ android:layout_width="200px" 
+ android:paddingRight="25px" 
+ android:layout_gravity="center" 
+ android:paddingTop="0px" 
+  android:layout_height="150px" 
+  android:layout_marginTop="5px" 
+  android:textColor="#339933" 
+  android:textSize="16px" android:paddingLeft="60px"></TextView>
+
+</net.xsmile.game.GuessFunView>
+
+<ImageView android:id="@+id/srobot" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:src="@drawable/srobot" 
+android:layout_gravity="right">
+</ImageView>
+<ImageView 
+android:id="@+id/hrobot" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:src="@drawable/robot"></ImageView>
+<ImageView 
+android:id="@+id/brobot" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:src="@drawable/robot3"></ImageView>
+
+
+
+</net.xsmile.game.GuessView>
+
